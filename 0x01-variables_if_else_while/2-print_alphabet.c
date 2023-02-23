@@ -6,7 +6,7 @@ int main(void)
 
 	for (lowerAlpha = 'a'; lowerAlpha <= 'z'; lowerAlpha++)
 	{
-		putchar(lowerAlpha);
+		putchar( lowerAlpha);
 	}
 
 	return (0);
