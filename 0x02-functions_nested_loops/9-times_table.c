@@ -27,7 +27,9 @@ void times_table(void)
 			else if (ret < 10 && j > 0)
 			{
 				_putchar(' ');
+				_putchar(ret);
 			}
 		}
+		_putchar(10);
 	}
 }
