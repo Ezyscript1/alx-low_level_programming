@@ -23,7 +23,7 @@ void times_table(void)
 				_putchar(' ');
 				_putchar((ret % 10) + '0');
 			}
-			else if (ret > 0)
+			else if (ret > 10)
 			{
 			_putchar((ret / 10) + '0');
 			_putchar((ret % 10) + '0');
