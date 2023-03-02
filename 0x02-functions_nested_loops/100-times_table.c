@@ -21,15 +21,23 @@ void print_times_table(int n)
 				{
 					_putchar(',');
 					_putchar(' ');
-					_putchar(' ');
 				}
-				if (ret >= 10)
+				if (ret >= 100)
 				{
+					_putchar((ret / 100) + '0');
+					_putchar(((ret % 100) / 10) + '0');
+					_putchar((((ret % 100) / 10) % 10) + '0');
+
+				}
+				else if (ret >= 10)
+				{
+					_putchar(' ');
 					_putchar((ret / 10) + '0');
 					_putchar((ret % 10) + '0');
 				}
 				else if ((ret < 10)&& (j != 0))
 				{
+					_putchar(' ');
 					_putchar(' ');
 					_putchar((ret % 10) + '0');
 				}
