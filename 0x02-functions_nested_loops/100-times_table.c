@@ -2,11 +2,13 @@
 
 /**
  * print_times_table - print times table of any input.
+ * parameter - n
  * Return: Nothing
  */
 
 void print_times_table(int n)
 {
+
 	int i, j, ret;
 	if ((n < 15) && (n > 0))
 	{
@@ -18,6 +20,7 @@ void print_times_table(int n)
 				if (j != 0)
 				{
 					_putchar(',');
+					_putchar(' ');
 					_putchar(' ');
 				}
 				if (ret >= 10)
