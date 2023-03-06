@@ -13,7 +13,7 @@ void print_line(int n)
 	n = '0';
 	while (n >= '0')
 	{
-		if (n > 0)
+		if (n > '0')
 		{
 			_putchar('_');
 		}
