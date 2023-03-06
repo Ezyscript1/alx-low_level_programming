@@ -9,7 +9,7 @@ void more_numbers(void)
 
 {
 
-	int i = 0;
+	int i = '0';
 
 	while (i <= 10)
 	{
@@ -21,7 +21,7 @@ void more_numbers(void)
 			{
 				_putchar('1');
 			}
-			if (j >= 0)
+			if (j >= '0')
 			{
 				_putchar((j % 10) + '0');
 			}
